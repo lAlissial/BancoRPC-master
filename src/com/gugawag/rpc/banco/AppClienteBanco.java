@@ -18,6 +18,7 @@ public class AppClienteBanco {
 
         menu();
         Scanner entrada = new Scanner(System.in);
+        System.out.print("> ");
         int opcao = entrada.nextInt();
 
         while(opcao != 9) {
@@ -76,7 +77,7 @@ public class AppClienteBanco {
         System.out.println("4 - Remover conta");
         System.out.println("5 - Pesquisar conta");
         System.out.println("9 - Sair");
-        System.out.println("Alíssia Deolinda Oliveira de Lima");;
+        System.out.println("Alíssia Deolinda Oliveira de Lima\n");;
     }
 
 }
