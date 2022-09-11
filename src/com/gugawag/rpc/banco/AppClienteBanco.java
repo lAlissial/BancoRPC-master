@@ -27,7 +27,7 @@ public class AppClienteBanco {
                     System.out.print("Digite o número da conta:");
                     String conta = entrada.next();
                     //chamada ao método remoto, como se fosse executar localmente
-                    System.out.printf("Saldo da conta: %.2f",banco.saldo(conta));
+                    System.out.printf("Saldo da conta: %.2f \n",banco.saldo(conta));
                     break;
                 }
                 case 2: {
